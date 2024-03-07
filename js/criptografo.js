@@ -22,7 +22,6 @@ function criptografa() {
             return specialChars.test(str);
         }
 
-        //Lógica para verificar se o texto tem acento
         var comAcento = textoCriptografado;
         var semAcento = comAcento.normalize("NFD");
 
@@ -52,16 +51,13 @@ function descriptografa() {
 
         var paragrafo = document.querySelector(".texto-criptografado p");
 
-        //Verifica se tem letra minuscula
         var minusculas = textoDescriptografado.toLowerCase();
 
-        //verifica se tem caracter especial
         function temCaracterEspecial(str) {
             const specialChars = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
             return specialChars.test(str);
         }
 
-        //Lógica para verificar se o texto tem acento
         var comAcento = textoDescriptografado;
         var semAcento = comAcento.normalize("NFD");
 

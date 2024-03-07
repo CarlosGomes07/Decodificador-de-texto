@@ -1,13 +1,13 @@
 @media screen and (max-width: 480px) {
-    
-    .container{
+
+    .container {
         height: auto;
         max-height: unset;
         display: flex;
         flex-direction: column;
     }
 
-    .texto-principal {
+    .texto-pricipal {
         width: 100%;
     }
 
@@ -15,7 +15,7 @@
         width: 100%;
     }
 
-    .bt-cripto, 
+    .bt-cripto,
     .bt-descripto {
         width: 100%;
     }
@@ -32,7 +32,7 @@
         margin-top: 50px;
         margin-bottom: 0;
         resize: none;
-        height: 400px;
+        height: 400px !important;
     }
 
     .alerta img {
@@ -40,17 +40,17 @@
     }
 
     span {
-        margin-left: 0 0 16px 0;
+        margin: 0 0 16px 0;
     }
 
     .botoes {
         display: flex;
         flex-direction: column;
-        align-items: space-between;
+        align-content: space-between;
         padding-left: 0;
     }
 
-    .bt-copiar{
+    .bt-copiar {
         margin-top: 30px;
     }
 

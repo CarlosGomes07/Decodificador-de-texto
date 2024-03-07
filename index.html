@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Decodificador de texto </title>
-
+        <title> Decodificador de Texto </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,19 +14,18 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsivo.css">
-
     </head>
+
     <body>
+
         <div class="container">
-
             <div class="esquerda">
-
-                <img class="logo-alura" src="img/Logo.svg" alt="Logotipo Alura"/>
+                <img class="logo-alura" src="img/Logo.svg" alt="Logotipo Alura">
                 <form>
                     <textarea id="texto-principal" type="text" placeholder="Digite seu texto"></textarea>
                     <div>
                         <div class="alerta">
-                            <img src="img/Frame 1.svg"/>
+                            <img src="img/Frame 1.svg">
                         </div>
                         <div class="botoes">
                             <button class="bt-cripto" id="criptografar">Criptografar</button>
@@ -35,23 +34,21 @@
                     </div>
                 </form>
             </div>
-
             <div class="direita">
                 <div class="sem-retorno">
-                    <img src="img/High quality products 1 1.svg" id="mensagem-nao-encontrada" alt="Nenhuma mensagem encontrada"/>
-                    <h3 class="titulo-sem-retorno"> Nenhuma mensagem encontrada </h3>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar </p>
+                    <img src="img/High quality products 1 1.svg" id="mensagem-nao-encontrada" alt="Nenhuma mensagem encontrada">
+                    <h3 class="titulo-sem-retorno">Nenhuma mensagem encontrada</h3>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar</p>
                 </div>
-            </div>
-
-            <div class="texto-criptografado d-none">
-                <p></p>
-                <button class="bt-copiar" id="copiar" ondblclick="copiarTexto()">Copiar</button>
+                <div class="texto-criptografado d-none">
+                    <p></p>
+                    <button class="bt-copiar" id="copiar" onclick="copiarTexto()">Copiar</button>
+                </div>
             </div>
         </div>
 
         <footer>
-            <a target="_blank" href="linkedin.com/in/carlos-henrique-gomes-de-oliveira-96b88b185/">
+            <a target="_blank" href="https://www.linkedin.com/in/carlos-henrique-gomes-de-oliveira-96b88b185/">
                 <img src="img/linkedin_logo.svg" class="logo-link" alt="linkedin"/>
             </a>
             <a target="_blank" href="https://github.com/CarlosGomes07/CarlosGomes07">
@@ -64,6 +61,7 @@
         <script src="js/criptografo.js"></script>
         <script src="js/copiar.js"></script>
         <script src="js/text-area.js"></script>
+    
+    
     </body>
-
 </html>

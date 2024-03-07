@@ -19,16 +19,22 @@ const cifrasParaDescriptografar = {
 
 function criptografaTexto(texto) {
     let textoConvertido = texto;
+
     listaNormal.forEach(function (letra) {
-        textoConvertido = textoConvertido.replaceAll(letra, cifrasParaCriptografar[letra])
-    })
+        const regex = new RegExp(letra, 'g');
+        textoConvertido = textoConvertido.replace(regex, cifrasParaCriptografar[letra]);
+    });
+
     return textoConvertido;
 }
 
 function descriptografaTexto(texto) {
     let textoParaConverter = texto;
+
     listaCriptografica.forEach(function (letra) {
-        textoParaConverter = textoParaConverter.replaceAll(letra, cifrasParaDescriptografar[letra])
-    })
+        const regex = new RegExp(letra, 'g');
+        textoParaConverter = textoParaConverter.replace(regex, cifrasParaDescriptografar[letra])
+    });
+
     return textoParaConverter;
 }

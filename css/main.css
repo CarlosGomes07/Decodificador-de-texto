@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     background-color: var(--light-blue-100);
 }
 
@@ -58,7 +58,7 @@ form {
 form textarea {
     width: 100%;
     border: none;
-    font-family: 'Inter';
+    font-family: "Inter";
     outline: none;
     color: var(--dark-blue-300);
     font-weight: 400;
@@ -104,11 +104,11 @@ button {
 }
 
 button.bt-cripto {
-    background-color: #0A3871;
+    background-color: var(--dark-blue-300);
     color: #FFFFFF;
 }
 
-button.bt-descripto{
+button.bt-descripto {
     background-color: #D8DFE8;
     color: var(--dark-blue-300);
 }
@@ -124,7 +124,7 @@ button.bt-copiar {
     width: 40%;
     height: 680px;
     text-align: center;
-    background-color: #FFFFFF;
+    background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.521);
     border-radius: 32px;
     margin: 40px 40px 40px 100px;
@@ -182,15 +182,15 @@ button.bt-copiar {
 
 footer {
     text-align: center;
-    color: #FFFFFF;
-    background: linear-gradient(var( --dark-blue-100), var(--dark-blue-200), var(--dark-blue-300));
+    color: var(--gray-500);
+    background: linear-gradient(0deg, var(--light-blue-500), var(--light-blue-400), var(--light-blue-300));
     padding: 30px 0;
     display: block;
     height: auto;
 }
 
 .logo-link {
-    height: 25px;
+    height: 40px;
     margin: 15px 5px 20px 5px;
 }
 
