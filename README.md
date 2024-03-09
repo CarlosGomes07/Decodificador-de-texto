@@ -6,7 +6,10 @@ Resultado desafio do programa ONE, da Oracle em parceria com a Alura:
 - Decodificador de texto com desingn responsivo feito em HTML, CSS e JavaScript.
 
 <p align="center">
-    <img width="600" heigth="600" src=/>
+    <img width="600" 
+        heigth="600"
+        src="./img/carlosgomes07-github-io-Decodificador-de-texto-2024-03-07-17_05_10.png"
+    />
 </p>
 
 Chave de Critografia
@@ -37,7 +40,9 @@ Extra
 
 GitHub Pages
 
--->
+--> https://carlosgomes07.github.io/Decodificador-de-texto/
 
 Badge pela Conclusão do Desafio
 ---
+
+<img width="400" heigth="400" src="./img/bandagem-nextOracle.png"/>
